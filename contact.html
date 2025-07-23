@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact Us - Buta Jewels</title>
-  <link rel="stylesheet" href="assets/styles.css">
+    <meta charset="UTF-8">
+    <title>Contact Us - Buta Jewels</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="branded-header">
-    <img src="assets/images/logo.jpg" alt="Buta Jewels Logo" class="logo">
-    <h1>Contact Us</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Collection</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <img src="logo.png" alt="Buta Jewels Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="collection.html">Collection</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
 
-  <section class="contact">
-    <h2>Get in Touch</h2>
-    <p><strong>Phone:</strong> +971-50-1234567</p>
-    <p><strong>Email:</strong> info@butajewels.com</p>
-    <p><strong>WhatsApp:</strong> <a href="https://wa.me/971501234567" target="_blank">Chat with us</a></p>
+    <main class="container">
+        <h1>Contact Us</h1>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Phone:</strong> +971553376621</p>
+            <p><strong>Email:</strong> butajewels_dmcc@yahoo.com</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/971553376621" target="_blank">Chat with us</a></p>
+        </section>
 
-    <h3>Inquiry Form</h3>
-    <form action="https://formspree.io/f/xwkgenqj" method="POST" class="inquiry-form">
-      <input type="text" name="name" placeholder="Your Name" required><br>
-      <input type="email" name="_replyto" placeholder="Your Email" required><br>
-      <textarea name="message" placeholder="Your Message / Order Request" required></textarea><br>
-      <button type="submit">Send Inquiry</button>
-    </form>
-  </section>
+        <section class="inquiry-form">
+            <h2>Inquiry Form</h2>
+            <form action="mailto:butajewels_dmcc@yahoo.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message / Order Request" required></textarea>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
 
-  <footer>
-    <p>© 2025 Buta Jewels DMCC | Dubai, UAE</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Buta Jewels DMCC | Dubai, UAE</p>
+    </footer>
 </body>
 </html>
