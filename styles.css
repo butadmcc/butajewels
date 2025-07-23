@@ -11,6 +11,7 @@ header {
 }
 header h1 {
   color: gold;
+  margin-bottom: 0.5em;
 }
 nav a {
   margin: 0 1em;
@@ -35,4 +36,55 @@ footer {
   padding: 1em;
   background-color: #111;
   color: white;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
+}
+.product-card {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+.about, .contact {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+.branded-header {
+  background-color: #111;
+  padding: 1em;
+  text-align: center;
+}
+.logo {
+  height: 60px;
+  vertical-align: middle;
+  margin-bottom: 0.5em;
+}
+nav a {
+  margin: 0 1em;
+  color: gold;
+  font-weight: bold;
+}
+.hero h2 {
+  font-size: 2em;
+  color: gold;
+}
+.product-card {
+  background: #fff8f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
